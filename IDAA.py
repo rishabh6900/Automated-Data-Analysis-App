@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 import pandas_profiling
+from ydata_profiling import ProfileReport
 
 
 
@@ -128,7 +129,7 @@ def main():
         try:
             # Pandas Profiling Report
             st.write("## Detailed Data Report")
-            profile = pandas_profiling.ProfileReport(df)
+            profile = ydata_profiling.ProfileReport(df)
             st_profile_report(profile)
             st.success("Pandas profiling report successfully generated!")
         except Exception as e:
