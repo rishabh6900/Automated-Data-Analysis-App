@@ -6,3 +6,4 @@ pandas_profiling
 streamlit_pandas_profiling
 pandas_profiling
 ydata_profiling
+pydantic<2.0
