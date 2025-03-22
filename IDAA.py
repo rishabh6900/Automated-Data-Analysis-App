@@ -128,7 +128,7 @@ def main():
         try:
             # Pandas Profiling Report
             st.write("## Detailed Data Report")
-            profile = ydata_profiling.ProfileReport(df)
+            profile = pandas_profiling.ProfileReport(df)
             st_profile_report(profile)
             st.success("Pandas profiling report successfully generated!")
         except Exception as e:
