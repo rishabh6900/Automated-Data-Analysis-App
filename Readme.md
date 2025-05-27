@@ -25,9 +25,10 @@ pip install Streamlit
 ## Usage
 
 To use the app, run the following command:
+run in base 
 
 ```bash
-Streamit run DAA.py
+Streamit run IDAA.py
 ```
 
 

@@ -7,7 +7,12 @@ from streamlit_pandas_profiling import st_profile_report
 import pandas_profiling
 #from ydata_profiling import ProfileReport
 
+# Why is this Useful?
+# Helps prevent errors in calculations where inf or -inf could cause issues.
 
+# pd.NA ensures consistency in missing value handling across Pandas functions.
+
+# Essential for data cleaning before analysis or machine learning tasks.
 
 
 def clean_data(df):
